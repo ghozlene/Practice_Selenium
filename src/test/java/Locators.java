@@ -16,6 +16,8 @@ public class Locators {
         driver.findElement(By.name("inputPassword")).sendKeys("achref");
         //Identifying the web Element by className & click on it
         driver.findElement(By.className("signInBtn")).click();
+        //CSS selector
+
 
     }
 }
